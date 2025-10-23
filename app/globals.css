@@ -5,3 +5,13 @@
 }
 
 
+@theme inline {
+  --font-ovo: var(--font-ovo);
+  --font-outfit: var(--font-outfit);
+
+  --color-light: #fcf4ff;
+  --color-dark: #2a004a;
+  --color-odd: #11001f;
+
+  --shadow-black: 4px 4px 0 #000
+}

@@ -8,14 +8,14 @@ const Header = () => {
             <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
         </div>
         
-        <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3">
+        <h3 className="flex items-end gap-2 text-xl md:text-2xl mb-3 font-ovo">
             Hi, I am Salifu Nicodemus <Image src={assets.hand_icon} alt="" className="w-6" />
         </h3>
         
-        <h1 className="text-3xl sm:text-6xl lg:text-[45px]">
+        <h1 className="text-3xl sm:text-6xl lg:text-[50px] font-ovo">
             frontend developer based in Abuja, Nigeria
         </h1>
-        <p className="max-w-2xl mx-auto">
+        <p className="max-w-2xl mx-auto font-ovo">
             I am a frontend developer from Abuja, Nigeria with 5 years of experience in multiple companies like apple, tesla and google
         </p>
         

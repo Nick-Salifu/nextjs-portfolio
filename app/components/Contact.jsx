@@ -34,10 +34,10 @@ const Contact = () => {
 
   return (
     <div id="contact" className="w-full px-[12%] py-10 scroll-mt-20 bg-[url('/footer-bg-color.png')] bg-no-repeat bg-center bg-[length:90%_auto]">
-        <h4 className="text-center text-lg mb-2">Connect with me</h4>
-        <h2 className="text-center text-5xl">Get in touch</h2>
+        <h4 className="text-center text-lg mb-2 font-ovo">Connect with me</h4>
+        <h2 className="text-center text-5xl font-ovo">Get in touch</h2>
         
-        <p className="text-center max-w-2xl mx-auto mt-5 mb-12">I'd love to hear from you, if you have any questions, comments, or feedback please use the form below</p>
+        <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">I'd love to hear from you, if you have any questions, comments, or feedback please use the form below</p>
         
         <form onSubmit={onSubmit} className="max-w-2xl mx-auto">
             <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 mt-10 mb-8">

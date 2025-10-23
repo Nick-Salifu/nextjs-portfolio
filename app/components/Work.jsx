@@ -4,10 +4,10 @@ import Image from "next/image"
 const Work = () => {
   return (
     <div id="work" className="w-full px-[12%] py-10 scroll-mt-20">
-        <h4 className="text-center text-lg mb-2">My portfolio</h4>
-        <h2 className="text-center text-5xl">My latest work</h2>
+        <h4 className="text-center text-lg mb-2 font-ovo">My portfolio</h4>
+        <h2 className="text-center text-5xl font-ovo">My latest work</h2>
         
-        <p className="text-center max-w-2xl mx-auto mt-5 mb-12">Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development</p>
+        <p className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development</p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 my-10 gap-5">
             {workData.map((project, index)=>(
