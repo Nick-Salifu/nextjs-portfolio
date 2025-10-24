@@ -2,7 +2,8 @@
 
 import { assets } from "@/assets/assets"
 import Image from "next/image"
-import { useState } from "react";
+import { useState } from "react"
+import  {motion} from "motion/react"
 
 const Contact = () => {
     const [result, setResult] = useState("");
