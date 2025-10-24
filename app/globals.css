@@ -2,6 +2,7 @@
 
 *{
   font-family: Outfit;
+  darkMode: class;
 }
 
 
@@ -13,5 +14,5 @@
   --color-dark: #2a004a;
   --color-odd: #11001f;
 
-  --shadow-black: 4px 4px 0 #000
+  --shadow-black: 4px 4px 0 #000;
 }
