@@ -10,7 +10,7 @@ const Header = () => {
             whileInView={{scale: 1}}
             transition={{duration: 0.8, type: 'spring', stiffness: 100}}
         >
-            <Image src={assets.profile_img} alt="" className="rounded-full w-32" />
+            <Image src={assets.nick_passport} alt="" className="rounded-full w-32" />
         </motion.div>
         
         <motion.h3
