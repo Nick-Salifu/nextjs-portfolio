@@ -2,9 +2,9 @@
 
 *{
   font-family: Outfit;
-  darkMode: class;
 }
 
+@custom-variant dark (&:where(.dark, .dark *));
 
 @theme inline {
   --font-ovo: var(--font-ovo);
