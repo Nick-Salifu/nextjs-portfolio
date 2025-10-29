@@ -10,7 +10,7 @@ const Header = () => {
             whileInView={{scale: 1}}
             transition={{duration: 0.8, type: 'spring', stiffness: 100}}
         >
-            <Image src={assets.nick_passport } alt="" className="rounded-full w-32" />
+            <Image src={assets.nick_passport} alt="" className="rounded-full w-32" />
         </motion.div>
         
         <motion.h3
@@ -34,7 +34,7 @@ const Header = () => {
             whileInView={{opacity: 1}}
             transition={{duration: 0.6, delay: 0.7}}
             className="max-w-2xl mx-auto font-ovo">
-            I am a frontend developer from Abuja, Nigeria with 5 years of experience in multiple companies like apple, tesla and google
+            I’m a Frontend Developer who loves creating websites that are easy to use, fast, and work well on all devices. I’ve spent the past 3+ years developing clean, user-friendly websites.
         </motion.p>
         
         <div className="flex flex-col sm:flex-row items-center gap-4 mt-4">

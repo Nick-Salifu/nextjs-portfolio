@@ -47,7 +47,9 @@ const About = ({darkMode}) => {
             transition={{duration: 0.6, delay: 0.8}}
             className="flex-1"
           >
-            <p className="mb-10 max-w-2xl font-ovo">I am an experienced frontend developer with over a decade of professional expertise in the field. Throughout my career, I have had the privilege of collaborating with prestigious organizations, contributing to their success and growth</p>
+            <p className="mb-10 max-w-2xl font-ovo">
+              I’m a Frontend Developer who loves turning ideas into beautiful, functional, and responsive websites. I enjoy creating web experiences that not only look great but also feel smooth and easy to use. I work with modern tools and technologies like React, Next.js, Tailwind CSS, and TypeScript to build fast, accessible, and user-friendly interfaces. My focus is on writing clean code, improving performance, and making sure every design looks great on any device.  
+            </p>
             
             <motion.ul 
               initial={{ opacity: 0 }}

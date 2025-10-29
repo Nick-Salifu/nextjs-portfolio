@@ -83,7 +83,7 @@ export const assets = {
     nick_passport,
     nick_logo,
     nick_logo_dark,
-    dark_logo
+    dark_logo,
 };
 
 export const workData = [
@@ -110,14 +110,18 @@ export const workData = [
 ]
 
 export const serviceData = [
-    { icon: assets.web_icon, title: 'Front-end Development', description: 'Web development is the process of building, programming...', link: '' },
-    { icon: assets.mobile_icon, title: 'Mobile app', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
-    { icon: assets.ui_icon, title: 'UI/UX design', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
-    { icon: assets.graphics_icon, title: 'Graphics design', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.web_icon, title: 'Responsive Website Development', description: 'Web development is the process of building, programming...', link: '' },
+    { icon: assets.mobile_icon, title: 'Web Application Development', description: 'Mobile app development involves creating software for mobile devices...', link: '' },
+    { icon: assets.ui_icon, title: 'UI/UX Implementation', description: 'UI/UX design focuses on creating a seamless user experience...', link: '' },
+    { icon: assets.graphics_icon, title: 'Website Optimization', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Cross-Browser Compatibility', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Website Maintenance & Updates', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Landing Page Development', description: 'Creative design solutions to enhance visual communication...', link: '' },
+    { icon: assets.graphics_icon, title: 'Version Control & Collaboration', description: 'Creative design solutions to enhance visual communication...', link: '' },
 ]
 
 export const infoList = [
-    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js' },
+    { icon: assets.code_icon, iconDark: assets.code_icon_dark, title: 'Languages', description: 'HTML, CSS, JavaScript React Js, Next Js, Typescript' },
     { icon: assets.edu_icon, iconDark: assets.edu_icon_dark, title: 'Education', description: 'BSc Information and Communication Science' },
     { icon: assets.project_icon, iconDark: assets.project_icon_dark, title: 'Projects', description: 'Built more than 5 projects' }
 ];

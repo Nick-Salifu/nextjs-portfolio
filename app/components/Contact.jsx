@@ -60,7 +60,7 @@ const Contact = () => {
           initial={{opacity: 0}}
           whileInView={{opacity: 1}}
           transition={{duration: 0.5, delay: 0.7}}
-          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">I'd love to hear from you, if you have any questions, comments, or feedback please use the form below</motion.p>
+          className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">I’d love to hear from you! Whether you’re looking to hire me for a project, collaborate on something creative, or simply share feedback or ask a question, feel free to reach out. I’m always open to new opportunities and conversations. Just drop me a message, and I’ll get back to you as soon as I can.</motion.p>
         
         <motion.form 
           initial={{opacity: 0}}

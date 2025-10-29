@@ -31,7 +31,7 @@ const Work = ({darkMode}) => {
             whileInView={{ opacity: 1 }}
             transition={{duration: 0.5, delay: 0.7}}
             className="text-center max-w-2xl mx-auto mt-5 mb-12 font-ovo">
-              Welcome to my web development portfolio! Explore a collection of projects showcasing my expertise in front-end development
+              Here are some of my recent projects that showcase my skills and passion for creating modern, responsive, and user-focused web applications. Each project highlights different aspects of my work, from design and performance to functionality and clean code. Feel free to explore and see how I bring ideas to life through thoughtful frontend development.
         </motion.p>
         
         <motion.div 

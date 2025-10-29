@@ -48,9 +48,9 @@ const Services = () => {
                     <p className="text-sm leading-5 text-gray-600 dark:text-white/80">
                         {description}
                     </p>
-                    <a href={link} className="flex items-center gap-2 mt-5 text-sm">
+                    {/* <a href={link} className="flex items-center gap-2 mt-5 text-sm">
                         Read more <Image src={assets.right_arrow} alt="" className="w-4" />
-                    </a>
+                    </a> */}
                 </motion.div>
             ))}
         </motion.div>
